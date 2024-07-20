@@ -67,6 +67,12 @@ content: url(../Images/favicon.ico);
 align-self: center;
 }
 /* nav sec */
+.nav{
+    border: 1px solid var(--t-b-color);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .nav--menu{
     display: flex;
     gap: var(--gap-xl);
