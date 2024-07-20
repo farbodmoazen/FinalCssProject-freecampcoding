@@ -25,8 +25,27 @@ ul {
     --bg-b-color:hsl(0, 0%, 0%);
     --bg-o-image: linear-graduent( to bottom,hsl(32, 100%, 50%),hsl(0, 0%, 100%);)
     --t-b-color:hsl(0, 0%, 0%);
+    --t-w-color:hsl(0,0%,100%);
     --t-g-color:hsl(108, 99%, 34%);
     --t-o-color:hsl(32, 100%, 50%);
+    --xl-padd:2rem 2.5rem;
+    --l-padd:1.2rem 2rem;
+    --m-padd:0.5rem 1.2rem;
+    --f-xl:1.5em;
 }
 
 /* Header */
+.header{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.head--sec{
+    padding: var(--m-padd);
+    background-color: var(--bg-b-color);
+    color: var(--t-w-color);
+    width: 100%;
+    text-align: center;
+    font-size: var(--f-xl);
+}
