@@ -15,7 +15,7 @@ body{
 a{
     text-decoration: none;
 }
-ul{
+ul {
     list-style-type: none;
 }
 
@@ -28,3 +28,5 @@ ul{
     --t-g-color:hsl(108, 99%, 34%);
     --t-o-color:hsl(32, 100%, 50%);
 }
+
+/* Header */
