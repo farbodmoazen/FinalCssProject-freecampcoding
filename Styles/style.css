@@ -23,7 +23,7 @@ ul {
 :root{
     --bg-w-color:hsl(0, 0%, 100%);
     --bg-b-color:hsl(0, 0%, 0%);
-    --bg-o-image: linear-graduent( to bottom,hsl(32, 100%, 50%),hsl(0, 0%, 100%);)
+    --bg-o-image: linear-graduent( to bottom,hsl(32, 100%, 50%),hsl(0, 0%, 100%););
     --t-b-color:hsl(0, 0%, 0%);
     --t-w-color:hsl(0,0%,100%);
     --t-g-color:hsl(108, 99%, 34%);
