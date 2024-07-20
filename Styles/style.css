@@ -50,4 +50,12 @@ ul {
     text-align: center;
     font-size: var(--f-xl);
 }
-
+.head--sec--h1{
+    display: flex;
+    justify-content: center;
+    gap: var(--gap-l);
+}
+.head--sec--h1::before,.head--sec--h1::after{
+content: url(../Images/favicon.ico);
+align-self: center;
+}
