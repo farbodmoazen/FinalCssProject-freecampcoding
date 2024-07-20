@@ -63,3 +63,13 @@ content: url(../Images/favicon.ico);
 align-self: center;
 }
 /* nav sec */
+.nav--menu{
+    display: flex;
+    gap: var(--gap-xl);
+    font-size: var(--f-xl);
+    padding: var(--m-padd);
+    background-color: var(--bg-w-color);
+}
+.nav--item--a{
+    color:var(--t-b-color);
+}
