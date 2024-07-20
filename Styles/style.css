@@ -36,7 +36,10 @@ ul {
     --gap-l:0.5rem;
 
 }
-
+/* hover */
+.nav--item--a:hover{
+    color:var(--t-o-color);
+}
 /* Header */
 /* head sec */
 .header{
