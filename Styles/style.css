@@ -32,6 +32,7 @@ ul {
     --l-padd:1.2rem 2rem;
     --m-padd:0.5rem 1.2rem;
     --f-xl:1.5em;
+    --f-l:1.2em;
     --gap-xl:1.5rem;
     --gap-l:0.5rem;
 
@@ -69,7 +70,7 @@ align-self: center;
 .nav--menu{
     display: flex;
     gap: var(--gap-xl);
-    font-size: var(--f-xl);
+    font-size: var(--f-l);
     padding: var(--m-padd);
     background-color: var(--bg-w-color);
 }
