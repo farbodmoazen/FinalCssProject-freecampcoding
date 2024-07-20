@@ -32,10 +32,13 @@ ul {
     --l-padd:1.2rem 2rem;
     --m-padd:0.5rem 1.2rem;
     --f-xl:1.5em;
+    --gap-xl:1.5rem;
     --gap-l:0.5rem;
+
 }
 
 /* Header */
+/* head sec */
 .header{
     display: flex;
     flex-flow: column nowrap;
@@ -59,3 +62,4 @@ ul {
 content: url(../Images/favicon.ico);
 align-self: center;
 }
+/* nav sec */
