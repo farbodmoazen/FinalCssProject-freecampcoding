@@ -152,6 +152,10 @@ content: url(../Images/favicon.ico);
   .art--menu{
     border-collapse: collapse;
     width: 100%;
+    /* these styles use to draw border radius */
+    border-radius: 30px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px var(--bd-b); /* this draws the table border  */ 
   }
   .art--menu th, .art--menu td{
     border: 1px solid var(--bd-b) ;
