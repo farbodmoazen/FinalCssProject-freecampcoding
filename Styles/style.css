@@ -35,6 +35,7 @@ ul {
     --f-l:1.2em;
     --gap-xl:1.5rem;
     --gap-l:0.5rem;
+    --bg-g-op:hsla(108, 99%, 34%, 0.705);
 
 }
 /* hover */
@@ -88,4 +89,30 @@ align-self: center;
 .nav--item--a{
     color:var(--t-b-color);
 }
-/* section img */
+/* main */
+/* figure img */
+.fig {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    position: relative;
+  }
+  
+  .fig--img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .figcap {
+    position: absolute;
+    top: 20px;
+    left:30px;
+    padding: var(--m-padd);
+    background-color: var(--bg-g-op);
+    color: var(--t-w-color);
+    font-size: var(--f-xl);
+    font-weight: 900; 
+    transform: skew(-15deg, -5deg);
+  }
