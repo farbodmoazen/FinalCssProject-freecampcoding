@@ -44,6 +44,19 @@ ul {
 .nav--item--a:hover{
     color:var(--t-o-color);
 }
+/* animations */
+@keyframes FigcapDrop {
+    0%{
+        top: 0;
+    }
+    50%{
+        opacity: 0.6;
+    }
+    100%{
+        top:20px;
+        opacity: 1;
+    }
+}
 /* main container */
 .main--container{
     max-width: 800px;
@@ -108,6 +121,8 @@ align-self: center;
   }
   
   .figcap {
+    animation: FigcapDrop 0.3s ease-in 0.5s 1;
+    animation-fill-mode: forwards;
     position: absolute;
     top: 20px;
     left:30px;
@@ -117,4 +132,5 @@ align-self: center;
     font-size: var(--f-xl);
     font-weight: 900; 
     transform: skew(-15deg, -5deg);
+    opacity: 0;
   }
