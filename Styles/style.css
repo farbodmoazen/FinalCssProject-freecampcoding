@@ -4,7 +4,8 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: 0;  scroll-behavior: smooth;
+    margin: 0; 
+    scroll-behavior: smooth;
 
 }
 body{
@@ -14,9 +15,6 @@ body{
   font-style: normal;
   font-weight: 200;
   height: 100%;
-}
-a{
-    text-decoration: none;
 }
 ul {
     list-style-type: none;
@@ -43,7 +41,7 @@ ul {
     --xl-padd:2rem 2.5rem;
 }
 /* hover */
-.nav--item--a:hover{
+.nav--item--a:hover,.art--btn:hover{
     color:var(--t-o-color);
 }
 /* animations */
@@ -110,6 +108,7 @@ content: url(../Images/favicon.ico);
 }
 .nav--item--a{
     color:var(--t-b-color);
+    text-decoration: none;
 }
 /* main */
 /* figure img */
@@ -169,4 +168,20 @@ content: url(../Images/favicon.ico);
     font-weight: 800;
     font-size: var(--f-xl);
   }
-  
+  /* article back to top */
+  .art--btn{
+    text-align: center;
+    margin:2rem 0;
+    font-size: var(--f-l);
+  }
+  /* footer */
+  .footer{
+    background-color: var(--bg-b-color);
+    max-width: 800px;
+    color: var(--t-w-color);
+    text-align: center;
+    font-size: var(--f-xl);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
