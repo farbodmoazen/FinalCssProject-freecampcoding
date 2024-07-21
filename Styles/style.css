@@ -41,6 +41,11 @@ ul {
 .nav--item--a:hover{
     color:var(--t-o-color);
 }
+/* main container */
+.main--container{
+    max-width: 800px;
+    margin: auto;
+}
 /* Header */
 /* head sec */
 .header{
@@ -83,3 +88,4 @@ align-self: center;
 .nav--item--a{
     color:var(--t-b-color);
 }
+/* section img */
