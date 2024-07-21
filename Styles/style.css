@@ -28,6 +28,7 @@ ul {
     --bg-o-image: linear-gradient( to bottom,hsl(39, 100%, 50%),hsl(0, 0%, 100%));
     --bg-w-color:hsl(0, 0%, 100%);
     --bd-b:hsl(0, 0%, 0%);
+    --f-m:0.8em;
     --f-l:1.2em;
     --f-xl:1.5em;
     --gap-l:0.5rem;
@@ -133,3 +134,33 @@ content: url(../Images/favicon.ico);
     top: 20px;
     transform: skew(-15deg, -5deg);
   }
+    /* article */
+    .article{
+        margin: 2rem 0;
+        padding: var(--l-padd);
+        background-color: var(--bg-w-color);
+        display: flex;
+        flex-flow: column nowrap;
+    }
+  /* table */
+  .art--menu{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .art--menu th, .art--menu td{
+    border: 1px solid var(--bd-b) ;
+    padding: var(--xl-padd);
+    font-size: var(--f-l);
+    text-align: center;
+  }
+  .art--menu th{
+    color: var(--t-g-color);
+  }
+  .cap--menu{
+    margin-bottom: 2rem;
+    text-align: left;
+    color: var(--t-g-color);
+    font-weight: 800;
+    font-size: var(--f-xl);
+  }
+  
