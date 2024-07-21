@@ -11,6 +11,8 @@ body{
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+  background-image: var(--bg-o-image);
+  height: 100vh;
 }
 a{
     text-decoration: none;
@@ -23,7 +25,7 @@ ul {
 :root{
     --bg-w-color:hsl(0, 0%, 100%);
     --bg-b-color:hsl(0, 0%, 0%);
-    --bg-o-image: linear-graduent( to bottom,hsl(32, 100%, 50%),hsl(0, 0%, 100%););
+    --bg-o-image: linear-gradient( to bottom,hsl(39, 100%, 50%),hsl(0, 0%, 100%));
     --t-b-color:hsl(0, 0%, 0%);
     --t-w-color:hsl(0,0%,100%);
     --t-g-color:hsl(108, 99%, 34%);
@@ -78,13 +80,13 @@ align-self: center;
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: var(--bg-w-color);
 }
 .nav--menu{
     display: flex;
     gap: var(--gap-xl);
     font-size: var(--f-l);
     padding: var(--m-padd);
-    background-color: var(--bg-w-color);
 }
 .nav--item--a{
     color:var(--t-b-color);
