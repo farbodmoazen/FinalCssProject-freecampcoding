@@ -12,7 +12,7 @@ body{
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: 200;
-  height: 100vh;
+  height: 100%;
 }
 a{
     text-decoration: none;
@@ -27,6 +27,7 @@ ul {
     --bg-g-op:hsla(108, 99%, 34%, 0.705);
     --bg-o-image: linear-gradient( to bottom,hsl(39, 100%, 50%),hsl(0, 0%, 100%));
     --bg-w-color:hsl(0, 0%, 100%);
+    --bd-b:hsl(0, 0%, 0%);
     --f-l:1.2em;
     --f-xl:1.5em;
     --gap-l:0.5rem;
@@ -38,7 +39,6 @@ ul {
     --t-o-color:hsl(32, 100%, 50%);
     --t-w-color:hsl(0,0%,100%);
     --xl-padd:2rem 2.5rem;
-
 }
 /* hover */
 .nav--item--a:hover{
