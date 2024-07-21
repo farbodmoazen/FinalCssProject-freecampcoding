@@ -166,12 +166,10 @@ content: url(../Images/favicon.ico);
   .art--menu th{
     color: var(--t-g-color);
   }
-  .cap--menu{
+  .art--cap{
     margin-bottom: 2rem;
-    text-align: left;
     color: var(--t-g-color);
     font-weight: 800;
-    font-size: var(--f-xl);
   }
   /* article back to top */
   .art--btn{
