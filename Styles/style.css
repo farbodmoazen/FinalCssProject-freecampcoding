@@ -85,7 +85,7 @@ ul {
     width: 100%;
     max-width: 800px;
 }
-.head--sec{
+.header__section{
     background-color: var(--bg-b-color);
     color: var(--t-w-color);
     font-size: var(--f-xl);
@@ -110,7 +110,7 @@ content: url(../Images/favicon.ico);
     justify-content: center;
     width: 100%;
 }
-.nav--menu{
+.nav__ul{
     display: flex;
     font-size: var(--f-l);
     gap: var(--gap-xl);
@@ -130,7 +130,7 @@ content: url(../Images/favicon.ico);
     text-align: left;
   }
   
-  .fig--img {
+  .fig__img {
     display: block;
     height: auto;
     width: 100%;
