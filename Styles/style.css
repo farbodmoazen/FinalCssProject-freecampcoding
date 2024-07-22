@@ -156,6 +156,7 @@ content: url(../Images/favicon.ico);
         background-color: var(--bg-w-color);
         display: flex;
         flex-flow: column nowrap;
+        min-height: 50vh;
     }
   /* table */
   .art--menu{
@@ -176,6 +177,7 @@ content: url(../Images/favicon.ico);
     color: var(--t-g-color);
   }
   .art--cap{
+    margin-top: 1.2rem;
     margin-bottom: 2rem;
     color: var(--t-g-color);
     font-weight: 800;
