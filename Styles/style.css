@@ -13,7 +13,7 @@ body{
   background-image: var(--bg-o-image);
   font-optical-sizing: auto;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 500;
   height: 100%;
   min-height: 100vh;
 }
@@ -25,6 +25,8 @@ ul {
 :root{
     --bg-b-color:hsl(0, 0%, 0%);
     --bg-g-op:hsla(108, 99%, 34%, 0.705);
+    --bg-success-btn:hsl(108, 79%, 47%);
+    --bg-danger-btn:hsl(0, 83%, 50%);
     --bg-o-image: linear-gradient( to bottom,hsl(39, 100%, 50%),hsl(0, 0%, 100%));
     --bg-w-color:hsl(0, 0%, 100%);
     --bd-b:hsl(0, 0%, 0%);
@@ -41,9 +43,16 @@ ul {
     --t-w-color:hsl(0,0%,100%);
     --xl-padd:2rem 2.5rem;
 }
-/* hover */
+/* hover and focus */
 .nav--item--a:hover,.art--btn:hover{
     color:var(--t-o-color);
+}
+
+.btn--danger:hover ,.btn--success:hover{
+    opacity: 0.6;
+}
+.contact-input:hover,.contact-tarea:hover,.contact-input:focus,.contact-tarea:focus{
+    border: 3px solid ;
 }
 /* animations */
 @keyframes FigcapDrop {
@@ -188,3 +197,31 @@ content: url(../Images/favicon.ico);
     position: fixed;
     width: 100%;
   }
+  /* contact form */
+  .contact-form{
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .btn--group{
+    margin-top: 0.8rem;
+  }
+  .btn--contact{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    margin-right: 0.8rem;
+    color: var(--t-w-color);
+    border: none;
+    border-radius: 5px;
+  }
+.btn--success{
+    background-color: var(--bg-success-btn);
+}
+.btn--danger{
+    background-color: var(--bg-danger-btn);
+}
+.contact-input,.contact-tarea{
+    border-radius: 5px;
+    padding: var(--m-padd);
+    border: 2px solid var(--bd-b);
+}
