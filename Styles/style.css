@@ -234,7 +234,7 @@ content: url(../Images/favicon.ico);
 }
 .error-message{
   color: var(--t-error-color);
-  font-size: 1.2em;
+  font-size: 0.9em;
   margin-top: 5px;
   display: none;
 }
