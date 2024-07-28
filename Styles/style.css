@@ -41,6 +41,7 @@ ul {
     --t-g-color:hsl(108, 99%, 34%);
     --t-o-color:hsl(32, 100%, 50%);
     --t-w-color:hsl(0,0%,100%);
+    --t-error-color:#ff4d4d;
     --xl-padd:2rem 2.5rem;
 }
 /* hover and focus */
@@ -226,4 +227,14 @@ content: url(../Images/favicon.ico);
     border-radius: 5px;
     padding: var(--m-padd);
     border: 2px solid var(--bd-b);
+}
+/* css errors */
+.contact-input .error,.contact-tarea .error {
+  border-color: var(--t-error-color);
+}
+.error-message{
+  color: var(--t-error-color);
+  font-size: 1.2em;
+  margin-top: 5px;
+  display: none;
 }

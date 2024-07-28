@@ -44,14 +44,17 @@ Kansas City, MO 55555-5555
                 </p></div>
            
             </div>
-            <form class="contact-form" action="">
+            <form action="./index.html" id="form-el"  class="contact-form">
                 <label for="name">Name:</label>
                 <input placeholder="Enter your name" class="contact-input" type="name" name="name" id="name">
+                <small id="name-error" class="error-message">Name must be at least 3 characters.</small>
                 <label for="email">Email:</label>
                 <input placeholder="Enter your email" class="contact-input" type="email" name="email" id="email">
+                <small id="email-error" class="error-message">Please enter a valid email address.</small>
                 <label for="message">Your Message:</label>
                 <textarea placeholder="Write your message" class="contact-tarea"name="message" id="message" cols="30" rows="10"></textarea>
-                <div class="btn--group"><button class="btn--contact btn--success" type="submit">Send</button>
+                <small id="message-error" class="error-message">Message must be at least 30 characters.</small>
+                <div class="btn--group"><button class="btn--contact btn--success" id="btn-sub-el" type="submit">Send</button>
                     <button class="btn--contact btn--danger" type="reset">Reset</button></div>
             </form>
         </article>
